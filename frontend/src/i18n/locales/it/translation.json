@@ -44,25 +44,25 @@
           "name": "Emily Chen",
           "role": "Chef Esecutivo",
           "description": "Con oltre 15 anni di esperienza, Emily porta sapori innovativi nel nostro menu.",
-          "image": "/src/assets/chef.png"
+          "image": "/src/assets/chef.webp"
         },
         {
           "name": "Michael Rodriguez",
           "role": "Sous Chef",
           "description": "La passione di Michael per gli ingredienti locali brilla in ogni piatto che crea.",
-          "image": "/src/assets/sous-chef.png"
+          "image": "/src/assets/sous-chef.webp"
         },
         {
           "name": "Sarah Johnson",
           "role": "Pasticciera",
           "description": "I dessert squisiti di Sarah sono il perfetto finale dolce per ogni pasto.",
-          "image": "/src/assets/pastry-chef.png"
+          "image": "/src/assets/pastry-chef.webp"
         },
         {
           "name": "David Lee",
           "role": "Sommelier",
           "description": "L'esperienza di David garantisce l'abbinamento perfetto di vini per la tua esperienza culinaria.",
-          "image": "/src/assets/sommelier.png"
+          "image": "/src/assets/sommelier.webp"
         }
       ]
     }
@@ -77,25 +77,25 @@
           "name": "Salmone Grigliato",
           "description": "Salmone Atlantico fresco, salsa al burro di limone, asparagi",
           "price": "$24",
-          "image": "/src/assets/grilled-salmon.png"
+          "image": "/src/assets/grilled-salmon.webp"
         },
         {
           "name": "Risotto al Tartufo",
           "description": "Riso Arborio, funghi selvatici, parmigiano, olio al tartufo",
           "price": "$22",
-          "image": " /src/assets/truffle-risotto.png"
+          "image": " /src/assets/truffle-risotto.webp"
         },
         {
           "name": "Filetto di Manzo",
           "description": "Manzo alimentato all'erba, riduzione di vino rosso, verdure arrostite.",
           "price": "$28",
-          "image": " /src/assets/beef-tenderloin.png"
+          "image": " /src/assets/beef-tenderloin.webp"
         },
         {
           "name": "Torta al Cioccolato Fondente",
           "description": "Torta al cioccolato caldo, gelato alla vaniglia, composta di bacche.",
           "price": "$10",
-          "image": " /src/assets/chocolate-lava-cake.png"
+          "image": " /src/assets/chocolate-lava-cake.webp"
         }
       ]
     },
@@ -211,19 +211,19 @@
         "name": "Laura Smith",
         "role": "Critico Gastronomico",
         "content": "I sapori erano squisiti e la presentazione era straordinaria. Un’esperienza culinaria davvero memorabile.",
-        "image": " /src/assets/testimonial-1.png"
+        "image": " /src/assets/testimonial-1.webp"
       },
       {
         "name": "Daniel Kim",
         "role": "Cliente Regolare",
         "content": "Vengo qui da anni e la qualità non è mai cambiata. Il personale è sempre gentile e attento.",
-        "image": " /src/assets/testimonial-2.png"
+        "image": " /src/assets/testimonial-2.webp"
       },
       {
         "name": "Olivia Brown",
         "role": "Bloggher Locale di Cibo",
         "content": "Dall’atmosfera al cibo, tutto era perfetto. Un ristorante da visitare in città.",
-        "image": " /src/assets/testimonial-3.png"
+        "image": " /src/assets/testimonial-3.webp"
       }
     ]
   },

@@ -118,7 +118,7 @@ export default function Header() {
                 <div>
                   <img
                     className="h-[100px] w-auto"
-                    src="/src/assets/logo.png"
+                    src="/src/assets/logo.webp"
                     alt="Taste & Toast logo"
                     loading="lazy"
                     fetchPriority="high"
