@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Home",
+    "contact": "Contact",
+    "menu": "Menu",
+    "reservation": "Reservations",
+    "burger": "Open Menu",
+    "close": "Close Menu",
+    "orderOnline": "Order Online"
+  },
+  "hero": {
+    "title": "Welcome to Taste&Toast",
+    "subtitle": "Experience culinary excellence in a warm and inviting atmosphere. Our chef-crafted menu features fresh, locally-sourced ingredients prepared with passion and creativity.",
+    "viewMenu": "View Menu",
+    "makeReservation": "Make a Reservation"
+  },
+  "about": {
+    "ourStory": {
+      "title": "Our Story",
+      "description": "Founded in 2010, our restaurant has been serving the community with delicious, thoughtfully prepared meals for over a decade. We believe in the power of good food to bring people together and create lasting memories.",
+      "passionForFood": "A Passion for Great Food",
+      "localIngredients": {
+        "title": "Locally Sourced Ingredients",
+        "description": "We partner with local farmers and suppliers to bring you the freshest, highest-quality ingredients in every dish."
+      },
+      "culinaryExcellence": {
+        "title": "Culinary Excellence",
+        "description": "Our team of skilled chefs combines traditional techniques with innovative flavors to create unforgettable dining experiences."
+      },
+      "customerExperience": {
+        "title": "Customer Experience",
+        "description": "Our goal is to provide exceptional service and create a warm, welcoming atmosphere where you can relax and enjoy your meal."
+      },
+      "communityInvolvement": {
+        "title": "Community Involvement",
+        "description": "We are committed to supporting local charities and organizations that make a positive impact in our community."
+      }
+    },
+
+    "meetOurTeam": {
+      "title": "Meet Our Team",
+      "teamMembers": [
+        {
+          "name": "Emily Chen",
+          "role": "Executive Chef",
+          "description": "With over 15 years of experience, Emily brings innovative flavors to our menu.",
+          "image": "/src/assets/chef.webp"
+        },
+        {
+          "name": "Michael Rodriguez",
+          "role": "Sous Chef",
+          "description": "Michael's passion for local ingredients shines through in every dish he creates.",
+          "image": "/src/assets/sous-chef.webp"
+        },
+        {
+          "name": "Sarah Johnson",
+          "role": "Pastry Chef",
+          "description": "Sarah's exquisite desserts are the perfect sweet ending to any meal.",
+          "image": "/src/assets/pastry-chef.webp"
+        },
+        {
+          "name": "David Lee",
+          "role": "Sommelier",
+          "description": "David's expertise ensures the perfect wine pairing for your dining experience.",
+          "image": "/src/assets/sommelier.webp"
+        }
+      ]
+    }
+  },
+  "menu": {
+    "menuHighlights": {
+      "title": "Menu Highlights",
+      "description": "Discover our chef's favorite creations",
+      "viewFullMenu": "View Full Menu",
+      "menuItems": [
+        {
+          "name": "Grilled Salmon",
+          "description": "Fresh Atlantic salmon, lemon butter sauce, asparagus",
+          "price": "$24",
+          "image": "/src/assets/grilled-salmon.webp"
+        },
+        {
+          "name": "Truffle Risotto",
+          "description": "Arborio rice, wild mushrooms, parmesan, truffle oil",
+          "price": "$22",
+          "image": "/src/assets/truffle-risotto.webp"
+        },
+        {
+          "name": "Beef Tenderloin",
+          "description": "Grass-fed beef, red wine reduction, roasted vegetables",
+          "price": "$28",
+          "image": "/src/assets/beef-tenderloin.webp"
+        },
+        {
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake, molten center, raspberry coulis",
+          "price": "$10",
+          "image": "/src/assets/chocolate-lava-cake.webp"
+        }
+      ]
+    },
+    "fullMenu": {
+      "title": "Full Menu",
+      "menuItems": [
+        {
+          "name": "Truffle Risotto",
+          "description": "Arborio rice, wild mushrooms, parmesan, truffle oil",
+          "price": "22",
+          "priceId": "price_1Q8ocKRuObPRiAUvg1xGRtqv",
+          "category": "Mains"
+        },
+        {
+          "name": "Beef Tenderloin",
+          "description": "Grass-fed beef, red wine reduction, roasted vegetables",
+          "price": "28",
+          "priceId": "price_1Q8oeFRuObPRiAUv4hfNsHe3",
+          "category": "Mains"
+        },
+        {
+          "name": "Herb-Crusted Lamb Chops",
+          "description": "Grilled lamb chops, mint chimichurri, seasonal vegetables",
+          "price": "30",
+          "priceId": "price_1Q8ofNRuObPRiAUvrP3KABkc",
+          "category": "Mains"
+        },
+        {
+          "name": "Warm Apple Crumble",
+          "description": "Cinnamon-spiced apples, oat topping, vanilla ice cream",
+          "price": "10",
+          "priceId": "price_1Q8ogKRuObPRiAUvBJBXoLC3",
+          "category": "Desserts"
+        },
+        {
+          "name": "Cozy Tomato Soup",
+          "description": "Creamy tomato soup with basil and croutons",
+          "price": "8",
+          "priceId": "price_1Q8ohPRuObPRiAUvSaYP7f3d",
+          "category": "Starters"
+        },
+        {
+          "name": "Rustic Caesar Salad",
+          "description": "Crisp romaine, house-made dressing, parmesan crisps",
+          "price": "12",
+          "priceId": "price_1Q8oiLRuObPRiAUv7bH47wDG",
+          "category": "Starters"
+        },
+        {
+          "name": "Grilled Salmon",
+          "description": "Atlantic salmon, lemon butter sauce, roasted asparagus",
+          "price": "24",
+          "priceId": "price_1Q8oj0RuObPRiAUvMu9Lxaj6",
+          "category": "Mains"
+        },
+        {
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake, molten center, raspberry coulis",
+          "price": "10",
+          "priceId": "price_1Q8ojVRuObPRiAUvP2B5GZ25",
+          "category": "Desserts"
+        },
+        {
+          "name": "House Red Wine",
+          "description": "A rich and full-bodied red wine.",
+          "price": "8",
+          "priceId": "price_1Q8olJRuObPRiAUvfmysEZyx",
+          "category": "Drinks"
+        },
+        {
+          "name": "House White Wine",
+          "description": "A crisp and refreshing white wine.",
+          "price": "8",
+          "priceId": "price_1Q8olpRuObPRiAUvlC4CP6WK",
+          "category": "Drinks"
+        },
+        {
+          "name": "Craft Beer",
+          "description": "Locally brewed craft beer.",
+          "price": "6",
+          "priceId": "price_1Q8omeRuObPRiAUv503BzBXm",
+          "category": "Drinks"
+        },
+        {
+          "name": "Sparkling Water",
+          "description": "Refreshing sparkling water.",
+          "price": "3",
+          "priceId": "price_1Q8onrRuObPRiAUvixOuK05U",
+          "category": "Drinks"
+        },
+        {
+          "name": "Mineral Water",
+          "description": "Refreshing mineral water.",
+          "price": "3",
+          "priceId": "price_1Q8ooyRuObPRiAUvgyb3YBHL",
+          "category": "Drinks"
+        }
+      ],
+      "cart": {
+        "title": "Cart",
+        "checkout": "Checkout",
+        "checkoutError": "An error occurred while creating the checkout session.",
+        "addToCart": "Add to Cart",
+        "emptyCart": "Your cart is empty",
+        "total": "Total"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "testimonials": [
+      {
+        "name": "Laura Smith",
+        "role": "Food Critic",
+        "content": "The flavors were exquisite and the presentation was stunning. A truly memorable dining experience.",
+        "image": "/src/assets/testimonial-1.webp"
+      },
+      {
+        "name": "Daniel Kim",
+        "role": "Regular Customer",
+        "content": "I've been coming here for years and the quality has never wavered. The staff is always friendly and attentive.",
+        "image": "/src/assets/testimonial-2.webp"
+      },
+      {
+        "name": "Olivia Brown",
+        "role": "Local Food Blogger",
+        "content": "From the ambiance to the food, everything was perfect. A must-visit restaurant in the city.",
+        "image": "/src/assets/testimonial-3.webp"
+      }
+    ]
+  },
+  "reservation": {
+    "title": "Make a Reservation",
+    "description": "Book your table online and enjoy a delightful dining experience",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "date": "Date",
+      "pickDate": "Pick a date",
+      "time": "Time",
+      "selectTime": "Select a time",
+      "guests": "Guests",
+      "selectGuests": "Select number of guests",
+      "note": "Note",
+      "noteDescription": "Any special requests or dietary restrictions.",
+      "bookTable": "Book Table",
+      "errors": {
+        "name": "Name must be at least 3 characters long",
+        "email": "Invalid email address",
+        "date": "Date is required",
+        "time": "Time is required",
+        "guests": "Number of guests is required"
+      },
+      "success": "Reservation submitted",
+      "successDescription": "We will contact you shortly to confirm your reservation."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you",
+    "address": {
+      "title": "Address",
+      "address": "123 Gourmet Street",
+      "city": "Foodie City",
+      "zip": "FC 12345"
+    },
+    "phone": {
+      "title": "Phone",
+      "phone": "(555) 123-4567"
+    },
+    "hours": {
+      "title": "Hours",
+      "monday": "Monday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About Us",
+      "description": "Taste&Toast is a restaurant that serves delicious food in a warm and inviting atmosphere."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "contact": "Contact",
+      "menu": "Menu",
+      "reservation": "Reservations"
+    },
+    "followUs": "Follow Us",
+    "copyright": "2024 Taste&Toast",
+    "allRightsReserved": "All Rights Reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

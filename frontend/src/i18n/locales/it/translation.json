@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Home",
+    "contact": "Contatti",
+    "menu": "Menu",
+    "reservation": "Prenotazioni",
+    "burger": "Apri menu",
+    "close": "Chiudi menu",
+    "orderOnline": "Ordina online"
+  },
+  "hero": {
+    "title": "Benvenuti a Taste&Toast",
+    "subtitle": "Vivi l'eccellenza culinaria in un'atmosfera calda e accogliente. Il nostro menu, creato dallo chef, presenta ingredienti freschi e locali preparati con passione e creatività.",
+    "viewMenu": "Visualizza Menu",
+    "makeReservation": "Fai una Prenotazione"
+  },
+  "about": {
+    "ourStory": {
+      "title": "Nuestra Historia",
+      "description": "Fundado en 2010, nuestro restaurante ha estado sirviendo a la comunidad con comidas deliciosas y cuidadosamente preparadas durante más de una década. Creemos en el poder de la buena comida para unir a las personas y crear recuerdos duraderos.",
+      "passionForFood": "Una Pasión por la Buena Comida",
+      "localIngredients": {
+        "title": "Ingredientes Locales",
+        "description": "Colaboramos con agricultores y proveedores locales para ofrecerte los ingredientes más frescos y de la más alta calidad en cada plato."
+      },
+      "culinaryExcellence": {
+        "title": "Excelencia Culinaria",
+        "description": "Nuestro equipo de chefs capacitados combina técnicas tradicionales con sabores innovadores para crear experiencias gastronómicas inolvidables."
+      },
+      "customerExperience": {
+        "title": "Experiencia del Cliente",
+        "description": "Nuestro objetivo es proporcionar un servicio excepcional y crear un ambiente cálido y acogedor donde puedas relajarte y disfrutar de tu comida."
+      },
+      "communityInvolvement": {
+        "title": "Participación Comunitaria",
+        "description": "Estamos comprometidos a apoyar organizaciones benéficas y locales que tienen un impacto positivo en nuestra comunidad."
+      }
+    },
+
+    "meetOurTeam": {
+      "title": "Incontra il Nostro Team",
+      "teamMembers": [
+        {
+          "name": "Emily Chen",
+          "role": "Chef Esecutivo",
+          "description": "Con oltre 15 anni di esperienza, Emily porta sapori innovativi nel nostro menu.",
+          "image": "/src/assets/chef.png"
+        },
+        {
+          "name": "Michael Rodriguez",
+          "role": "Sous Chef",
+          "description": "La passione di Michael per gli ingredienti locali brilla in ogni piatto che crea.",
+          "image": "/src/assets/sous-chef.png"
+        },
+        {
+          "name": "Sarah Johnson",
+          "role": "Pasticciera",
+          "description": "I dessert squisiti di Sarah sono il perfetto finale dolce per ogni pasto.",
+          "image": "/src/assets/pastry-chef.png"
+        },
+        {
+          "name": "David Lee",
+          "role": "Sommelier",
+          "description": "L'esperienza di David garantisce l'abbinamento perfetto di vini per la tua esperienza culinaria.",
+          "image": "/src/assets/sommelier.png"
+        }
+      ]
+    }
+  },
+  "menu": {
+    "menuHighlights": {
+      "title": "Punti Salienti del Menu",
+      "description": "Scopri le creazioni preferite del nostro chef",
+      "viewFullMenu": "Visualizza il Menu Completo",
+      "menuItems": [
+        {
+          "name": "Salmone Grigliato",
+          "description": "Salmone Atlantico fresco, salsa al burro di limone, asparagi",
+          "price": "$24",
+          "image": "/src/assets/grilled-salmon.png"
+        },
+        {
+          "name": "Risotto al Tartufo",
+          "description": "Riso Arborio, funghi selvatici, parmigiano, olio al tartufo",
+          "price": "$22",
+          "image": " /src/assets/truffle-risotto.png"
+        },
+        {
+          "name": "Filetto di Manzo",
+          "description": "Manzo alimentato all'erba, riduzione di vino rosso, verdure arrostite.",
+          "price": "$28",
+          "image": " /src/assets/beef-tenderloin.png"
+        },
+        {
+          "name": "Torta al Cioccolato Fondente",
+          "description": "Torta al cioccolato caldo, gelato alla vaniglia, composta di bacche.",
+          "price": "$10",
+          "image": " /src/assets/chocolate-lava-cake.png"
+        }
+      ]
+    },
+    "fullMenu": {
+      "title": "Menu Completo",
+      "menuItems": [
+        {
+          "name": "Risotto al Tartufo",
+          "description": "Riso Arborio, funghi selvatici, parmigiano, olio al tartufo",
+          "price": "22",
+          "priceId": "price_1Q8ocKRuObPRiAUvg1xGRtqv",
+          "category": "Portate Principali"
+        },
+        {
+          "name": "Filetto di Manzo",
+          "description": "Manzo alimentato all'erba, riduzione di vino rosso, verdure arrosto",
+          "price": "28",
+          "priceId": "price_1Q8oeFRuObPRiAUv4hfNsHe3",
+          "category": "Portate Principali"
+        },
+        {
+          "name": "Costolette di Agnello Croccanti alle Erbe",
+          "description": "Costolette di agnello grigliate, chimichurri alla menta, verdure di stagione",
+          "price": "30",
+          "priceId": "price_1Q8ofNRuObPRiAUvrP3KABkc",
+          "category": "Portate Principali"
+        },
+        {
+          "name": "Crumble di Mele Caldo",
+          "description": "Mele speziate alla cannella, copertura d'avena, gelato alla vaniglia",
+          "price": "10",
+          "priceId": "price_1Q8ogKRuObPRiAUvBJBXoLC3",
+          "category": "Dessert"
+        },
+        {
+          "name": "Zuppa di Pomodoro Confortevole",
+          "description": "Zuppa di pomodoro cremosa con basilico e crostini",
+          "price": "8",
+          "priceId": "price_1Q8ohPRuObPRiAUvSaYP7f3d",
+          "category": "Antipasti"
+        },
+        {
+          "name": "Insalata Caesar Rustica",
+          "description": "Romaine croccante, condimento fatto in casa, croccanti di parmigiano",
+          "price": "12",
+          "priceId": "price_1Q8oiLRuObPRiAUv7bH47wDG",
+          "category": "Antipasti"
+        },
+        {
+          "name": "Salmone Grigliato",
+          "description": "Salmone Atlantico, salsa al burro di limone, asparagi arrostiti",
+          "price": "24",
+          "priceId": "price_1Q8oj0RuObPRiAUvMu9Lxaj6",
+          "category": "Portate Principali"
+        },
+        {
+          "name": "Torta al Cioccolato Fondente",
+          "description": "Torta al cioccolato caldo con cuore fuso e coulis di lampone",
+          "price": "10",
+          "priceId": "price_1Q8ojVRuObPRiAUvP2B5GZ25",
+          "category": "Dessert"
+        },
+        {
+          "name": "Vino Rosso della Casa",
+          "description": "Un vino rosso ricco e corposo.",
+          "price": "8",
+          "priceId": "price_1Q8olJRuObPRiAUvfmysEZyx",
+          "category": "Bevande"
+        },
+        {
+          "name": "Vino Bianco della Casa",
+          "description": "Un vino bianco fresco e rinfrescante.",
+          "price": "8",
+          "priceId": "price_1Q8olpRuObPRiAUvlC4CP6WK",
+          "category": "Bevande"
+        },
+        {
+          "name": "Birra Artigianale",
+          "description": "Birra artigianale locale.",
+          "price": "6",
+          "priceId": "price_1Q8omeRuObPRiAUv503BzBXm",
+          "category": "Bevande"
+        },
+        {
+          "name": "Acqua Frizzante",
+          "description": "Acqua frizzante rinfrescante.",
+          "price": "3",
+          "priceId": "price_1Q8onrRuObPRiAUvixOuK05U",
+          "category": "Bevande"
+        },
+        {
+          "name": "Acqua Minerale",
+          "description": "Acqua minerale rinfrescante.",
+          "price": "3",
+          "priceId": "price_1Q8ooyRuObPRiAUvgyb3YBHL",
+          "category": "Bevande"
+        }
+      ],
+      "cart": {
+        "title": "Carrello",
+        "checkout": "Cassa",
+        "addToCart": "Aggiungi al carrello",
+        "checkoutError": "Si è verificato un errore durante la creazione della sessione di pagamento.",
+        "emptyCart": "Il tuo carrello è vuoto",
+        "total": "Totale"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Cosa Dicono i Nostri Clienti",
+    "testimonials": [
+      {
+        "name": "Laura Smith",
+        "role": "Critico Gastronomico",
+        "content": "I sapori erano squisiti e la presentazione era straordinaria. Un’esperienza culinaria davvero memorabile.",
+        "image": " /src/assets/testimonial-1.png"
+      },
+      {
+        "name": "Daniel Kim",
+        "role": "Cliente Regolare",
+        "content": "Vengo qui da anni e la qualità non è mai cambiata. Il personale è sempre gentile e attento.",
+        "image": " /src/assets/testimonial-2.png"
+      },
+      {
+        "name": "Olivia Brown",
+        "role": "Bloggher Locale di Cibo",
+        "content": "Dall’atmosfera al cibo, tutto era perfetto. Un ristorante da visitare in città.",
+        "image": " /src/assets/testimonial-3.png"
+      }
+    ]
+  },
+  "reservation": {
+    "title": "Fai una Prenotazione",
+    "description": "Prenota il tuo tavolo online e goditi un'esperienza culinaria deliziosa",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "date": "Data",
+      "pickDate": "Scegli una data",
+      "time": "Ora",
+      "selectTime": "Seleziona un'ora",
+      "guests": "Ospiti",
+      "selectGuests": "Seleziona il numero di ospiti",
+      "note": "Nota",
+      "noteDescription": "Eventuali richieste speciali o restrizioni dietetiche.",
+      "bookTable": "Prenota Tavolo",
+      "errors": {
+        "name": "Il nome deve contenere almeno 3 caratteri",
+        "email": "Indirizzo email non valido",
+        "date": "La data è obbligatoria",
+        "time": "L'ora è obbligatoria",
+        "guests": "Il numero di ospiti è obbligatorio"
+      },
+      "success": "Prenotazione inviata",
+      "successDescription": "Entriremo in contatto con te presto per confermare la tua prenotazione."
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "description": "Ci piacerebbe sentirti",
+    "address": {
+      "title": "Indirizzo",
+      "address": "123 Via Gourmet",
+      "city": "Città dei Golosi",
+      "zip": "FC 12345"
+    },
+    "phone": {
+      "title": "Telefono",
+      "phone": "(555) 123-4567"
+    },
+    "hours": {
+      "title": "Orari",
+      "monday": "Lunedì",
+      "friday": "Venerdì",
+      "saturday": "Sabato",
+      "sunday": "Domenica"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "Chi Siamo",
+      "description": "Taste&Toast è un ristorante che serve cibo delizioso in un'atmosfera calda e accogliente."
+    },
+    "quickLinks": {
+      "title": "Link Veloci",
+      "home": "Home",
+      "contact": "Contatto",
+      "menu": "Menu",
+      "reservation": "Prenotazioni"
+    },
+    "followUs": "Seguici",
+    "copyright": "2024 Taste&Toast",
+    "allRightsReserved": "Tutti i Diritti Riservati",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "termsOfService": "Termini di Servizio"
+  }
+}

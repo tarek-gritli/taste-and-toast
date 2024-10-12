@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Startseite",
+    "contact": "Kontakt",
+    "menu": "Speisekarte",
+    "reservation": "Reservierungen",
+    "burger": "Menü öffnen",
+    "close": "Menü schließen",
+    "orderOnline": "Online bestellen"
+  },
+  "hero": {
+    "title": "Willkommen bei Taste&Toast",
+    "subtitle": "Erleben Sie kulinarische Exzellenz in einer warmen und einladenden Atmosphäre. Unser vom Chef kreiertes Menü bietet frische, lokal bezogene Zutaten, die mit Leidenschaft und Kreativität zubereitet werden.",
+    "viewMenu": "Menü anzeigen",
+    "makeReservation": "Reservierung vornehmen"
+  },
+  "about": {
+    "ourStory": {
+      "title": "Unsere Geschichte",
+      "description": "Gegründet im Jahr 2010, serviert unser Restaurant der Gemeinschaft seit über einem Jahrzehnt köstliche, sorgfältig zubereitete Mahlzeiten. Wir glauben an die Kraft von gutem Essen, um Menschen zusammenzubringen und bleibende Erinnerungen zu schaffen.",
+      "passionForFood": "Eine Leidenschaft für großartiges Essen",
+      "localIngredients": {
+        "title": "Regional Bezogene Zutaten",
+        "description": "Wir arbeiten mit lokalen Bauern und Lieferanten zusammen, um Ihnen die frischesten und hochwertigsten Zutaten in jedem Gericht zu bieten."
+      },
+      "culinaryExcellence": {
+        "title": "Kulinarische Exzellenz",
+        "description": "Unser Team von erfahrenen Köchen kombiniert traditionelle Techniken mit innovativen Aromen, um unvergessliche kulinarische Erlebnisse zu schaffen."
+      },
+      "customerExperience": {
+        "title": "Kundenerfahrung",
+        "description": "Unser Ziel ist es, einen außergewöhnlichen Service zu bieten und eine warme, einladende Atmosphäre zu schaffen, in der Sie sich entspannen und Ihr Essen genießen können."
+      },
+      "communityInvolvement": {
+        "title": "Gemeinschaftliches Engagement",
+        "description": "Wir setzen uns dafür ein, lokale Wohltätigkeitsorganisationen und Organisationen zu unterstützen, die einen positiven Einfluss in unserer Gemeinschaft haben."
+      }
+    },
+
+    "meetOurTeam": {
+      "title": "Unser Team Treffen",
+      "teamMembers": [
+        {
+          "name": "Emily Chen",
+          "role": "Küchenchefin",
+          "description": "Mit über 15 Jahren Erfahrung bringt Emily innovative Aromen in unser Menü.",
+          "image": "/src/assets/chef.png"
+        },
+        {
+          "name": "Michael Rodriguez",
+          "role": "Sous-Chef",
+          "description": "Michaels Leidenschaft für regionale Zutaten zeigt sich in jedem Gericht, das er zubereitet.",
+          "image": "/src/assets/sous-chef.png"
+        },
+        {
+          "name": "Sarah Johnson",
+          "role": "Patissière",
+          "description": "Sarahs exquisite Desserts sind der perfekte süße Abschluss für jedes Essen.",
+          "image": "/src/assets/pastry-chef.png"
+        },
+        {
+          "name": "David Lee",
+          "role": "Sommelier",
+          "description": "Davids Expertise sorgt für die perfekte Weinbegleitung zu Ihrem Dinner-Erlebnis.",
+          "image": "/src/assets/sommelier.png"
+        }
+      ]
+    }
+  },
+  "menu": {
+    "menuHighlights": {
+      "title": "Menü Highlights",
+      "description": "Entdecken Sie die Lieblingskreationen unseres Küchenchefs",
+      "viewFullMenu": "Gesamtes Menü anzeigen",
+      "menuItems": [
+        {
+          "name": "Gegrillter Lachs",
+          "description": "Frischer Atlantischer Lachs, Zitronenbuttersauce, Spargel",
+          "price": "$24",
+          "image": "/src/assets/grilled-salmon.png"
+        },
+        {
+          "name": "Trüffelrisotto",
+          "description": "Arborio-Reis, Waldpilze, Parmesan, Trüffelöl",
+          "price": "$22",
+          "image": "/src/assets/truffle-risotto.png"
+        },
+        {
+          "name": "Rinderfilet",
+          "description": "Grasgefüttertes Rindfleisch, Rotweinsauce, geröstetes Gemüse",
+          "price": "$28",
+          "image": "/src/assets/beef-tenderloin.png"
+        },
+        {
+          "name": "Schokoladen-Lava-Kuchen",
+          "description": "Warmer Schokoladenkuchen, Vanilleeis, Beerenkompott",
+          "price": "$10",
+          "image": "/src/assets/chocolate-lava-cake.png"
+        }
+      ]
+    },
+    "fullMenu": {
+      "title": "Vollständiges Menü",
+      "menuItems": [
+        {
+          "name": "Trüffelrisotto",
+          "description": "Arborio-Reis, Waldpilze, Parmesan, Trüffelöl",
+          "price": "22",
+          "priceId": "price_1Q8ocKRuObPRiAUvg1xGRtqv",
+          "category": "Hauptgerichte"
+        },
+        {
+          "name": "Rinderfilet",
+          "description": "Grasgefüttertes Rindfleisch, Rotweinsauce, geröstetes Gemüse",
+          "price": "28",
+          "priceId": "price_1Q8oeFRuObPRiAUv4hfNsHe3",
+          "category": "Hauptgerichte"
+        },
+        {
+          "name": "Kräuterkrustenhähnchen",
+          "description": "Gegrillte Lammkoteletts, Minz-Chimichurri, saisonales Gemüse",
+          "price": "30",
+          "priceId": "price_1Q8ofNRuObPRiAUvrP3KABkc",
+          "category": "Hauptgerichte"
+        },
+        {
+          "name": "Apfel-Crumble",
+          "description": "Zimtgewürzte Äpfel, Haferkruste, Vanilleeis",
+          "price": "10",
+          "priceId": "price_1Q8ogKRuObPRiAUvBJBXoLC3",
+          "category": "Desserts"
+        },
+        {
+          "name": "Gemütliche Tomatensuppe",
+          "description": "Cremige Tomatensuppe mit Basilikum und Croûtons",
+          "price": "8",
+          "priceId": "price_1Q8ohPRuObPRiAUvSaYP7f3d",
+          "category": "Vorspeisen"
+        },
+        {
+          "name": "Rustikale Caesar-Salat",
+          "description": "Crisp Romaine, hausgemachtes Dressing, Parmesan-Chips",
+          "price": "12",
+          "priceId": "price_1Q8oiLRuObPRiAUv7bH47wDG",
+          "category": "Vorspeisen"
+        },
+        {
+          "name": "Gegrillter Lachs",
+          "description": "Atlantischer Lachs, Zitronenbuttersauce, gerösteter Spargel",
+          "price": "24",
+          "priceId": "price_1Q8oj0RuObPRiAUvMu9Lxaj6",
+          "category": "Hauptgerichte"
+        },
+        {
+          "name": "Schokoladen-Lava-Kuchen",
+          "description": "Warmer Schokoladenkuchen mit flüssigem Kern und Himbeersauce",
+          "price": "10",
+          "priceId": "price_1Q8ojVRuObPRiAUvP2B5GZ25",
+          "category": "Desserts"
+        },
+        {
+          "name": "Hausrotwein",
+          "description": "Ein reichhaltiger und vollmundiger Rotwein.",
+          "price": "8",
+          "priceId": "price_1Q8olJRuObPRiAUvfmysEZyx",
+          "category": "Getränke"
+        },
+        {
+          "name": "Hausweißwein",
+          "description": "Ein frischer und erfrischender Weißwein.",
+          "price": "8",
+          "priceId": "price_1Q8olpRuObPRiAUvlC4CP6WK",
+          "category": "Getränke"
+        },
+        {
+          "name": "Craft-Bier",
+          "description": "Hausgebrautes Craft-Bier.",
+          "price": "6",
+          "priceId": "price_1Q8omeRuObPRiAUv503BzBXm",
+          "category": "Getränke"
+        },
+        {
+          "name": "Sprudelwasser",
+          "description": "Erfrischendes Sprudelwasser.",
+          "price": "3",
+          "priceId": "price_1Q8onrRuObPRiAUvixOuK05U",
+          "category": "Getränke"
+        },
+        {
+          "name": "Mineralwasser",
+          "description": "Erfrischendes Mineralwasser.",
+          "price": "3",
+          "priceId": "price_1Q8ooyRuObPRiAUvgyb3YBHL",
+          "category": "Getränke"
+        }
+      ],
+      "cart": {
+        "title": "Warenkorb",
+        "checkout": "Zur Kasse",
+        "addToCart": "In den Warenkorb legen",
+        "checkoutError": "Beim Erstellen der Zahlungssitzung ist ein Fehler aufgetreten.",
+        "emptyCart": "Ihr Warenkorb ist leer",
+        "total": "Gesamt"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Was Unsere Kunden Sagen",
+    "testimonials": [
+      {
+        "name": "Laura Smith",
+        "role": "Essen Kritiker",
+        "content": "Die Aromen waren exquisit und die Präsentation war atemberaubend. Ein wirklich unvergessliches Esserlebnis.",
+        "image": "/src/assets/testimonial-1.png"
+      },
+      {
+        "name": "Daniel Kim",
+        "role": "Regelmäßiger Kunde",
+        "content": "Ich komme seit Jahren hierher und die Qualität hat nie nachgelassen. Das Personal ist immer freundlich und aufmerksam.",
+        "image": "/src/assets/testimonial-2.png"
+      },
+      {
+        "name": "Olivia Brown",
+        "role": "Lokale Food-Bloggerin",
+        "content": "Von der Atmosphäre bis zum Essen war alles perfekt. Ein Restaurant, das man in der Stadt besuchen muss.",
+        "image": "/src/assets/testimonial-3.png"
+      }
+    ]
+  },
+  "reservation": {
+    "title": "Reservierung Vornehmen",
+    "description": "Buchen Sie Ihren Tisch online und genießen Sie ein köstliches Esserlebnis.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "date": "Datum",
+      "pickDate": "Wählen Sie ein Datum",
+      "time": "Uhrzeit",
+      "selectTime": "Wählen Sie eine Uhrzeit",
+      "guests": "Gäste",
+      "selectGuests": "Anzahl der Gäste auswählen",
+      "note": "Hinweis",
+      "noteDescription": "Besondere Wünsche oder diätetische Einschränkungen.",
+      "bookTable": "Tisch Reservieren",
+      "errors": {
+        "name": "Der Name muss mindestens 3 Zeichen lang sein",
+        "email": "Ungültige E-Mail-Adresse",
+        "date": "Das Datum ist erforderlich",
+        "time": "Die Uhrzeit ist erforderlich",
+        "guests": "Die Anzahl der Gäste ist erforderlich"
+      },
+      "success": "Reservierung eingereicht",
+      "successDescription": "Wir werden Sie in Kürze kontaktieren, um Ihre Reservierung zu bestätigen."
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "description": "Wir würden uns freuen, von Ihnen zu hören",
+    "address": {
+      "title": "Adresse",
+      "address": "123 Gourmetstraße",
+      "city": "Feinschmeckerstadt",
+      "zip": "FC 12345"
+    },
+    "phone": {
+      "title": "Telefon",
+      "phone": "(555) 123-4567"
+    },
+    "hours": {
+      "title": "Öffnungszeiten",
+      "monday": "Montag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "Über Uns",
+      "description": "Taste&Toast ist ein Restaurant, das köstliches Essen in einer warmen und einladenden Atmosphäre serviert."
+    },
+    "quickLinks": {
+      "title": "Schnelllinks",
+      "home": "Startseite",
+      "contact": "Kontakt",
+      "menu": "Menü",
+      "reservation": "Reservierungen"
+    },
+    "followUs": "Folgen Sie Uns",
+    "copyright": "2024 Taste&Toast",
+    "allRightsReserved": "Alle Rechte Vorbehalten",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}

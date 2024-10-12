@@ -1,0 +1,296 @@
+{
+  "header": {
+    "home": "الرئيسية",
+    "contact": "اتصل بنا",
+    "menu": "قائمة الطعام",
+    "reservation": "الحجوزات",
+    "burger": "فتح القائمة",
+    "close": "إغلاق القائمة",
+    "orderOnline": "اطلب عبر الإنترنت"
+  },
+
+  "hero": {
+    "title": "Taste&Toast مرحبًا بكم في",
+    "subtitle": "استمتعوا بالتفوق الطهوي في جو دافئ وجذاب. قائمة الطعام التي أعدها الشيف تحتوي على مكونات طازجة ومحلية المصدر، تم إعدادها بشغف وإبداع.",
+    "viewMenu": "عرض القائمة",
+    "makeReservation": "احجز طاولة"
+  },
+  "about": {
+    "ourStory": {
+      "title": "قصتنا",
+      "description": "تأسست مطعمنا في عام ٢٠١٠، وقد خدمت المجتمع بوجبات لذيذة تم إعدادها بعناية لأكثر من عقد من الزمان. نحن نؤمن بقوة الطعام الجيد في جمع الناس معًا وخلق ذكريات دائمة.",
+      "passionForFood": "شغف بالطعام الرائع",
+      "localIngredients": {
+        "title": "مكونات محلية المصدر",
+        "description": "نتعاون مع المزارعين والموردين المحليين لنقدم لكم أحدث وأعلى جودة من المكونات في كل طبق."
+      },
+      "culinaryExcellence": {
+        "title": "التميز الطهوي",
+        "description": "يجمع فريقنا من الطهاة المهرة بين التقنيات التقليدية والنكهات المبتكرة لخلق تجارب تناول طعام لا تُنسى."
+      },
+      "customerExperience": {
+        "title": "تجربة العملاء",
+        "description": "هدفنا هو تقديم خدمة استثنائية وخلق جو دافئ ومرحب حيث يمكنك الاسترخاء والاستمتاع بوجبتك."
+      },
+      "communityInvolvement": {
+        "title": "المشاركة المجتمعية",
+        "description": "نحن ملتزمون بدعم الجمعيات المحلية والمنظمات التي تترك تأثيرًا إيجابيًا في مجتمعنا."
+      }
+    },
+
+    "meetOurTeam": {
+      "title": "تعرف على فريقنا",
+      "teamMembers": [
+        {
+          "name": "إميلي تشين",
+          "role": "الشيف التنفيذي",
+          "description": "مع أكثر من ١٥ عامًا من الخبرة، تقدم إميلي نكهات مبتكرة في قائمتنا.",
+          "image": "/src/assets/chef.webp"
+        },
+        {
+          "name": "مايكل رودريغيز",
+          "role": "الشيف المساعد",
+          "description": "تتألق شغف مايكل بالمكونات المحلية في كل طبق يقوم بإعداده.",
+          "image": "/src/assets/sous-chef.webp"
+        },
+        {
+          "name": "سارة جونسون",
+          "role": "شيف الحلويات",
+          "description": "حلويات سارة الرائعة هي النهاية الحلوة المثالية لأي وجبة.",
+          "image": "/src/assets/pastry-chef.webp"
+        },
+        {
+          "name": "ديفيد لي",
+          "role": "خبير النبيذ",
+          "description": "تضمن خبرة ديفيد الحصول على أفضل تنسيق للنبيذ لتجربتك في تناول الطعام.",
+          "image": "/src/assets/sommelier.webp"
+        }
+      ]
+    }
+  },
+
+  "menu": {
+    "menuHighlights": {
+      "title": "أبرز الأطباق",
+      "description": "اكتشف إبداعات الطهاة المفضلة لدينا",
+      "viewFullMenu": "عرض القائمة الكاملة",
+      "menuItems": [
+        {
+          "name": "سلمون مشوي",
+          "description": "سلمون أتلانتيك طازج، صلصة زبدة الليمون، هليون",
+          "price": "$٢٤",
+          "image": "/src/assets/grilled-salmon.webp"
+        },
+        {
+          "name": "ريزوتو بالكمأة",
+          "description": "أرز أربوريو، فطر بري، جبن بارميزان، زيت الكمأة",
+          "price": "$٢٢",
+          "image": "/src/assets/truffle-risotto.webp"
+        },
+        {
+          "name": "لحم بقر طري",
+          "description": "لحم بقر مرعى، صلصة نبيذ أحمر، خضار مشوية",
+          "price": "$٢٨",
+          "image": "/src/assets/beef-tenderloin.webp"
+        },
+        {
+          "name": "كيك الشوكولاتة السائل",
+          "description": "كيك شوكولاتة دافئ، آيس كريم فانيليا، كومبوت التوت",
+          "price": "$١٠",
+          "image": "/src/assets/chocolate-lava-cake.webp"
+        }
+      ]
+    },
+    "fullMenu": {
+      "title": "القائمة الكاملة",
+      "menuItems": [
+        {
+          "name": "ريزوتو الكمأة",
+          "description": "أرز أربوريو، فطر بري، جبن بارميزان، زيت الكمأة",
+          "price": "22",
+          "priceId": "price_1Q8ocKRuObPRiAUvg1xGRtqv",
+          "category": "الأطباق الرئيسية"
+        },
+        {
+          "name": "فيليه لحم البقر",
+          "description": "لحم بقر مُربى على العشب، صلصة نبيذ أحمر، خضروات مشوية",
+          "price": "28",
+          "priceId": "price_1Q8oeFRuObPRiAUv4hfNsHe3",
+          "category": "الأطباق الرئيسية"
+        },
+        {
+          "name": "قطع لحم الضأن المغطاة بالأعشاب",
+          "description": "قطع لحم ضأن مشوية، صلصة نعناع، خضروات موسمية",
+          "price": "30",
+          "priceId": "price_1Q8ofNRuObPRiAUvrP3KABkc",
+          "category": "الأطباق الرئيسية"
+        },
+        {
+          "name": "فتات التفاح الدافئ",
+          "description": "تفاح متبل بالقرفة، تغطية الشوفان، آيس كريم فانيليا",
+          "price": "10",
+          "priceId": "price_1Q8ogKRuObPRiAUvBJBXoLC3",
+          "category": "الحلويات"
+        },
+        {
+          "name": "حساء الطماطم الدافئ",
+          "description": "حساء طماطم كريمي مع الريحان والخبز المحمص",
+          "price": "8",
+          "priceId": "price_1Q8ohPRuObPRiAUvSaYP7f3d",
+          "category": "المقبلات"
+        },
+        {
+          "name": "سلطة سيزر الريفية",
+          "description": "روماني مقرمش، صلصة منزلية، رقائق بارميزان",
+          "price": "12",
+          "priceId": "price_1Q8oiLRuObPRiAUv7bH47wDG",
+          "category": "المقبلات"
+        },
+        {
+          "name": "سلمون مشوي",
+          "description": "سلمون أطلنطي، صلصة زبدة الليمون، هليون مشوي",
+          "price": "24",
+          "priceId": "price_1Q8oj0RuObPRiAUvMu9Lxaj6",
+          "category": "الأطباق الرئيسية"
+        },
+        {
+          "name": "كيك الشوكولاتة السائل",
+          "description": "كيك شوكولاتة دافئ، مركز منصهر، صلصة توت العليق",
+          "price": "10",
+          "priceId": "price_1Q8ojVRuObPRiAUvP2B5GZ25",
+          "category": "الحلويات"
+        },
+        {
+          "name": "نبيذ أحمر منزلي",
+          "description": "نبيذ أحمر غني وممتلئ الجسم.",
+          "price": "8",
+          "priceId": "price_1Q8olJRuObPRiAUvfmysEZyx",
+          "category": "المشروبات"
+        },
+        {
+          "name": "نبيذ أبيض منزلي",
+          "description": "نبيذ أبيض هش ومنعش.",
+          "price": "8",
+          "priceId": "price_1Q8olpRuObPRiAUvlC4CP6WK",
+          "category": "المشروبات"
+        },
+        {
+          "name": "بيرة حرفية",
+          "description": "بيرة محلية الصنع.",
+          "price": "6",
+          "priceId": "price_1Q8omeRuObPRiAUv503BzBXm",
+          "category": "المشروبات"
+        },
+        {
+          "name": "مياه غازية",
+          "description": "مياه غازية منعشة.",
+          "price": "3",
+          "priceId": "price_1Q8onrRuObPRiAUvixOuK05U",
+          "category": "المشروبات"
+        },
+        {
+          "name": "مياه معدنية",
+          "description": "مياه معدنية منعشة.",
+          "price": "3",
+          "priceId": "price_1Q8ooyRuObPRiAUvgyb3YBHL",
+          "category": "المشروبات"
+        }
+      ],
+      "cart": {
+        "title": "عربة التسوق",
+        "checkout": "الدفع",
+        "addToCart": "أضف إلى العربة",
+        "emptyCart": "عربتك فارغة",
+        "total": "المجموع"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "ماذا يقول عملاؤنا",
+    "testimonials": [
+      {
+        "name": "لورا سميث",
+        "role": "ناقد طعام",
+        "content": "كانت النكهات رائعة والعرض مذهلاً. تجربة تناول طعام لا تُنسى حقًا.",
+        "image": "/src/assets/testimonial-1.webp"
+      },
+      {
+        "name": "دانيال كيم",
+        "role": "عميل منتظم",
+        "content": "لقد كنت أتيت إلى هنا لسنوات والجودة لم تتغير أبدًا. الموظفون دائمًا ودودون ومتفانون.",
+        "image": "/src/assets/testimonial-2.webp"
+      },
+      {
+        "name": "أوليفيا براون",
+        "role": "مدونة طعام محلية",
+        "content": "من الأجواء إلى الطعام، كان كل شيء مثاليًا. مطعم يجب زيارته في المدينة.",
+        "image": "/src/assets/testimonial-3.webp"
+      }
+    ]
+  },
+  "reservation": {
+    "title": "احجز طاولة",
+    "description": "احجز طاولتك عبر الإنترنت واستمتع بتجربة تناول طعام رائعة",
+    "form": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "date": "التاريخ",
+      "pickDate": "اختر تاريخًا",
+      "time": "الوقت",
+      "selectTime": "اختر وقتًا",
+      "guests": "الضيوف",
+      "selectGuests": "اختر عدد الضيوف",
+      "note": "ملاحظة",
+      "noteDescription": "أي طلبات خاصة أو قيود غذائية.",
+      "bookTable": "احجز الطاولة",
+      "errors": {
+        "name": "يجب أن يكون الاسم مكونًا من 3 أحرف على الأقل",
+        "email": "عنوان البريد الإلكتروني غير صالح",
+        "date": "التاريخ مطلوب",
+        "time": "الوقت مطلوب",
+        "guests": "عدد الضيوف مطلوب"
+      },
+      "success": "تم إرسال الحجز",
+      "successDescription": "سنتواصل معك قريبا لتأكيد الحجز."
+    }
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "description": "نود أن نسمع منك",
+    "address": {
+      "title": "العنوان",
+      "address": "١٢٣ شارع الذواقة",
+      "city": "مدينة عشاق الطعام",
+      "zip": "FC ١٢٣٤٥"
+    },
+    "phone": {
+      "title": "الهاتف",
+      "phone": "(٥٥٥) ١٢٣-٤٥٦٧"
+    },
+    "hours": {
+      "title": "ساعات العمل",
+      "monday": "الاثنين",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "معلومات عنا",
+      "description": "Taste&Toast هو مطعم يقدم طعامًا لذيذًا في جو دافئ ومرحب."
+    },
+    "quickLinks": {
+      "title": "روابط سريعة",
+      "home": "الرئيسية",
+      "contact": "اتصل بنا",
+      "menu": "القائمة",
+      "reservation": "الحجوزات"
+    },
+    "followUs": "تابعونا",
+    "copyright": "2024 Taste&Toast",
+    "allRightsReserved": "جميع الحقوق محفوظة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة"
+  }
+}
