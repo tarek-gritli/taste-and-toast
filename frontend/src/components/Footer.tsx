@@ -1,6 +1,7 @@
 import { Facebook, Instagram, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import logo from "@/assets/logo.webp";
 
 type FooterProps = {
   inView?: boolean;
@@ -51,7 +52,7 @@ export default function Footer({ inView }: FooterProps) {
               {t("footer.about.description")}
             </p>
             <img
-              src="/src/assets/logo.webp"
+              src={logo}
               alt="Taste&Toast Logo"
               className="w-auto h-[150px]"
             />

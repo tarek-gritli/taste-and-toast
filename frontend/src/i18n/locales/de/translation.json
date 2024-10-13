@@ -43,26 +43,22 @@
         {
           "name": "Emily Chen",
           "role": "Küchenchefin",
-          "description": "Mit über 15 Jahren Erfahrung bringt Emily innovative Aromen in unser Menü.",
-          "image": "/src/assets/chef.webp"
+          "description": "Mit über 15 Jahren Erfahrung bringt Emily innovative Aromen in unser Menü."
         },
         {
           "name": "Michael Rodriguez",
           "role": "Sous-Chef",
-          "description": "Michaels Leidenschaft für regionale Zutaten zeigt sich in jedem Gericht, das er zubereitet.",
-          "image": "/src/assets/sous-chef.webp"
+          "description": "Michaels Leidenschaft für regionale Zutaten zeigt sich in jedem Gericht, das er zubereitet."
         },
         {
           "name": "Sarah Johnson",
           "role": "Patissière",
-          "description": "Sarahs exquisite Desserts sind der perfekte süße Abschluss für jedes Essen.",
-          "image": "/src/assets/pastry-chef.webp"
+          "description": "Sarahs exquisite Desserts sind der perfekte süße Abschluss für jedes Essen."
         },
         {
           "name": "David Lee",
           "role": "Sommelier",
-          "description": "Davids Expertise sorgt für die perfekte Weinbegleitung zu Ihrem Dinner-Erlebnis.",
-          "image": "/src/assets/sommelier.webp"
+          "description": "Davids Expertise sorgt für die perfekte Weinbegleitung zu Ihrem Dinner-Erlebnis."
         }
       ]
     }
@@ -76,26 +72,22 @@
         {
           "name": "Gegrillter Lachs",
           "description": "Frischer Atlantischer Lachs, Zitronenbuttersauce, Spargel",
-          "price": "$24",
-          "image": "/src/assets/grilled-salmon.webp"
+          "price": "$24"
         },
         {
           "name": "Trüffelrisotto",
           "description": "Arborio-Reis, Waldpilze, Parmesan, Trüffelöl",
-          "price": "$22",
-          "image": "/src/assets/truffle-risotto.webp"
+          "price": "$22"
         },
         {
           "name": "Rinderfilet",
           "description": "Grasgefüttertes Rindfleisch, Rotweinsauce, geröstetes Gemüse",
-          "price": "$28",
-          "image": "/src/assets/beef-tenderloin.webp"
+          "price": "$28"
         },
         {
           "name": "Schokoladen-Lava-Kuchen",
           "description": "Warmer Schokoladenkuchen, Vanilleeis, Beerenkompott",
-          "price": "$10",
-          "image": "/src/assets/chocolate-lava-cake.webp"
+          "price": "$10"
         }
       ]
     },
@@ -210,20 +202,17 @@
       {
         "name": "Laura Smith",
         "role": "Essen Kritiker",
-        "content": "Die Aromen waren exquisit und die Präsentation war atemberaubend. Ein wirklich unvergessliches Esserlebnis.",
-        "image": "/src/assets/testimonial-1.webp"
+        "content": "Die Aromen waren exquisit und die Präsentation war atemberaubend. Ein wirklich unvergessliches Esserlebnis."
       },
       {
         "name": "Daniel Kim",
         "role": "Regelmäßiger Kunde",
-        "content": "Ich komme seit Jahren hierher und die Qualität hat nie nachgelassen. Das Personal ist immer freundlich und aufmerksam.",
-        "image": "/src/assets/testimonial-2.webp"
+        "content": "Ich komme seit Jahren hierher und die Qualität hat nie nachgelassen. Das Personal ist immer freundlich und aufmerksam."
       },
       {
         "name": "Olivia Brown",
         "role": "Lokale Food-Bloggerin",
-        "content": "Von der Atmosphäre bis zum Essen war alles perfekt. Ein Restaurant, das man in der Stadt besuchen muss.",
-        "image": "/src/assets/testimonial-3.webp"
+        "content": "Von der Atmosphäre bis zum Essen war alles perfekt. Ein Restaurant, das man in der Stadt besuchen muss."
       }
     ]
   },

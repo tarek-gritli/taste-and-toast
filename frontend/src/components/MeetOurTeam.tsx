@@ -2,6 +2,10 @@ import { useTranslation } from "react-i18next";
 import TeamMember from "./TeamMember";
 import { OneTeamMember } from "@/models/models";
 import { motion } from "framer-motion";
+import chef from "@/assets/chef.webp";
+import sousChef from "@/assets/sous-chef.webp";
+import pastryChef from "@/assets/pastry-chef.webp";
+import sommelier from "@/assets/sommelier.webp";
 
 type MeetOurTeamProps = {
   inView?: boolean;
@@ -12,6 +16,9 @@ export default function MeetOurTeam({ inView }: MeetOurTeamProps) {
   const teamMembers = t("about.meetOurTeam.teamMembers", {
     returnObjects: true,
   }) as OneTeamMember[];
+
+  const teamImages = [chef, sousChef, pastryChef, sommelier];
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -54,13 +61,13 @@ export default function MeetOurTeam({ inView }: MeetOurTeamProps) {
           variants={containerVariants}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
-          {teamMembers.map((member) => (
+          {teamMembers.map((member, index) => (
             <motion.div
               key={member.name}
               variants={cardVariants}
               className="flex"
             >
-              <TeamMember member={member} />
+              <TeamMember member={{ ...member, image: teamImages[index] }} />
             </motion.div>
           ))}
         </motion.div>

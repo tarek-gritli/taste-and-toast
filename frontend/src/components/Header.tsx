@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import FullMenu from "./FullMenu";
+import logo from "@/assets/logo.webp";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ export default function Header() {
               <span className="sr-only">Taste & Toast</span>
               <img
                 className="w-20 h-auto"
-                src="/src/assets/logo.webp"
+                src={logo}
                 alt="Taste & Toast logo"
                 loading="lazy"
                 fetchPriority="high"
@@ -118,7 +119,7 @@ export default function Header() {
                 <div>
                   <img
                     className="h-[100px] w-auto"
-                    src="/src/assets/logo.webp"
+                    src={logo}
                     alt="Taste & Toast logo"
                     loading="lazy"
                     fetchPriority="high"

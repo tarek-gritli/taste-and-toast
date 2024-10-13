@@ -43,26 +43,22 @@
         {
           "name": "Emily Chen",
           "role": "Chef Exécutif",
-          "description": "Avec plus de 15 ans d'expérience, Emily apporte des saveurs innovantes à notre menu.",
-          "image": "/src/assets/chef.webp"
+          "description": "Avec plus de 15 ans d'expérience, Emily apporte des saveurs innovantes à notre menu."
         },
         {
           "name": "Michael Rodriguez",
           "role": "Sous-Chef",
-          "description": "La passion de Michael pour les ingrédients locaux se reflète dans chaque plat qu'il crée.",
-          "image": "/src/assets/sous-chef.webp"
+          "description": "La passion de Michael pour les ingrédients locaux se reflète dans chaque plat qu'il crée."
         },
         {
           "name": "Sarah Johnson",
           "role": "Chef Pâtissière",
-          "description": "Les desserts exquis de Sarah sont la parfaite touche sucrée pour terminer n'importe quel repas.",
-          "image": "/src/assets/pastry-chef.webp"
+          "description": "Les desserts exquis de Sarah sont la parfaite touche sucrée pour terminer n'importe quel repas."
         },
         {
           "name": "David Lee",
           "role": "Sommelier",
-          "description": "L'expertise de David garantit le parfait accord vin pour votre expérience culinaire.",
-          "image": "/src/assets/sommelier.webp"
+          "description": "L'expertise de David garantit le parfait accord vin pour votre expérience culinaire."
         }
       ]
     }
@@ -76,26 +72,22 @@
         {
           "name": "Saumon Grillé",
           "description": "Saumon Atlantique frais, sauce au beurre citronné, asperges",
-          "price": "$24",
-          "image": "/src/assets/grilled-salmon.webp"
+          "price": "$24"
         },
         {
           "name": "Risotto aux Truffes",
           "description": "Riz Arborio, champignons sauvages, parmesan, huile de truffe",
-          "price": "$22",
-          "image": " /src/assets/truffle-risotto.webp"
+          "price": "$22"
         },
         {
           "name": "Filet de Boeuf",
           "description": "Boeuf nourri à l'herbe, réduction de vin rouge, légumes rôtis.",
-          "price": "$28",
-          "image": " /src/assets/beef-tenderloin.webp"
+          "price": "$28"
         },
         {
           "name": "Gâteau au Chocolat Coulant",
           "description": "Gâteau au chocolat chaud, glace à la vanille, compote de baies.",
-          "price": "$10",
-          "image": " /src/assets/chocolate-lava-cake.webp"
+          "price": "$10"
         }
       ]
     },
@@ -210,20 +202,17 @@
       {
         "name": "Laura Smith",
         "role": "Critique Culinaire",
-        "content": "Les saveurs étaient exquises et la présentation était époustouflante. Une expérience culinaire vraiment mémorable.",
-        "image": " /src/assets/testimonial-1.webp"
+        "content": "Les saveurs étaient exquises et la présentation était époustouflante. Une expérience culinaire vraiment mémorable."
       },
       {
         "name": "Daniel Kim",
         "role": "Client Régulier",
-        "content": "Je viens ici depuis des années et la qualité n'a jamais faibli. Le personnel est toujours amical et attentif.",
-        "image": " /src/assets/testimonial-2.webp"
+        "content": "Je viens ici depuis des années et la qualité n'a jamais faibli. Le personnel est toujours amical et attentif."
       },
       {
         "name": "Olivia Brown",
         "role": "Blogueuse Culinaire Locale",
-        "content": "De l'ambiance à la nourriture, tout était parfait. Un restaurant incontournable dans la ville.",
-        "image": " /src/assets/testimonial-3.webp"
+        "content": "De l'ambiance à la nourriture, tout était parfait. Un restaurant incontournable dans la ville."
       }
     ]
   },

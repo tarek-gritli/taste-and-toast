@@ -43,26 +43,22 @@
         {
           "name": "Emily Chen",
           "role": "Executive Chef",
-          "description": "With over 15 years of experience, Emily brings innovative flavors to our menu.",
-          "image": "/src/assets/chef.webp"
+          "description": "With over 15 years of experience, Emily brings innovative flavors to our menu."
         },
         {
           "name": "Michael Rodriguez",
           "role": "Sous Chef",
-          "description": "Michael's passion for local ingredients shines through in every dish he creates.",
-          "image": "/src/assets/sous-chef.webp"
+          "description": "Michael's passion for local ingredients shines through in every dish he creates."
         },
         {
           "name": "Sarah Johnson",
           "role": "Pastry Chef",
-          "description": "Sarah's exquisite desserts are the perfect sweet ending to any meal.",
-          "image": "/src/assets/pastry-chef.webp"
+          "description": "Sarah's exquisite desserts are the perfect sweet ending to any meal."
         },
         {
           "name": "David Lee",
           "role": "Sommelier",
-          "description": "David's expertise ensures the perfect wine pairing for your dining experience.",
-          "image": "/src/assets/sommelier.webp"
+          "description": "David's expertise ensures the perfect wine pairing for your dining experience."
         }
       ]
     }
@@ -76,26 +72,22 @@
         {
           "name": "Grilled Salmon",
           "description": "Fresh Atlantic salmon, lemon butter sauce, asparagus",
-          "price": "$24",
-          "image": "/src/assets/grilled-salmon.webp"
+          "price": "$24"
         },
         {
           "name": "Truffle Risotto",
           "description": "Arborio rice, wild mushrooms, parmesan, truffle oil",
-          "price": "$22",
-          "image": "/src/assets/truffle-risotto.webp"
+          "price": "$22"
         },
         {
           "name": "Beef Tenderloin",
           "description": "Grass-fed beef, red wine reduction, roasted vegetables",
-          "price": "$28",
-          "image": "/src/assets/beef-tenderloin.webp"
+          "price": "$28"
         },
         {
           "name": "Chocolate Lava Cake",
           "description": "Warm chocolate cake, molten center, raspberry coulis",
-          "price": "$10",
-          "image": "/src/assets/chocolate-lava-cake.webp"
+          "price": "$10"
         }
       ]
     },
@@ -210,20 +202,17 @@
       {
         "name": "Laura Smith",
         "role": "Food Critic",
-        "content": "The flavors were exquisite and the presentation was stunning. A truly memorable dining experience.",
-        "image": "/src/assets/testimonial-1.webp"
+        "content": "The flavors were exquisite and the presentation was stunning. A truly memorable dining experience."
       },
       {
         "name": "Daniel Kim",
         "role": "Regular Customer",
-        "content": "I've been coming here for years and the quality has never wavered. The staff is always friendly and attentive.",
-        "image": "/src/assets/testimonial-2.webp"
+        "content": "I've been coming here for years and the quality has never wavered. The staff is always friendly and attentive."
       },
       {
         "name": "Olivia Brown",
         "role": "Local Food Blogger",
-        "content": "From the ambiance to the food, everything was perfect. A must-visit restaurant in the city.",
-        "image": "/src/assets/testimonial-3.webp"
+        "content": "From the ambiance to the food, everything was perfect. A must-visit restaurant in the city."
       }
     ]
   },

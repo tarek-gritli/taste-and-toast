@@ -43,26 +43,22 @@
         {
           "name": "Emily Chen",
           "role": "Chef Ejecutivo",
-          "description": "Con más de 15 años de experiencia, Emily aporta sabores innovadores a nuestro menú.",
-          "image": "/src/assets/chef.webp"
+          "description": "Con más de 15 años de experiencia, Emily aporta sabores innovadores a nuestro menú."
         },
         {
           "name": "Michael Rodriguez",
           "role": "Chef de Partie",
-          "description": "La pasión de Michael por los ingredientes locales brilla en cada plato que crea.",
-          "image": "/src/assets/sous-chef.webp"
+          "description": "La pasión de Michael por los ingredientes locales brilla en cada plato que crea."
         },
         {
           "name": "Sarah Johnson",
           "role": "Chef Pastelera",
-          "description": "Los exquisitos postres de Sarah son el final dulce perfecto para cualquier comida.",
-          "image": "/src/assets/pastry-chef.webp"
+          "description": "Los exquisitos postres de Sarah son el final dulce perfecto para cualquier comida."
         },
         {
           "name": "David Lee",
           "role": "Sumiller",
-          "description": "La experiencia de David garantiza la perfecta combinación de vinos para tu experiencia gastronómica.",
-          "image": "/src/assets/sommelier.webp"
+          "description": "La experiencia de David garantiza la perfecta combinación de vinos para tu experiencia gastronómica."
         }
       ]
     }
@@ -76,26 +72,22 @@
         {
           "name": "Salmón a la Parrilla",
           "description": "Salmón Atlántico fresco, salsa de mantequilla de limón, espárragos",
-          "price": "$24",
-          "image": "/src/assets/grilled-salmon.webp"
+          "price": "$24"
         },
         {
           "name": "Risotto de Trufa",
           "description": "Arroz Arborio, champiñones silvestres, parmesano, aceite de trufa",
-          "price": "$22",
-          "image": "/src/assets/truffle-risotto.webp"
+          "price": "$22"
         },
         {
           "name": "Filete de Res",
           "description": "Carne de res alimentada con pasto, reducción de vino tinto, verduras asadas",
-          "price": "$28",
-          "image": "/src/assets/beef-tenderloin.webp"
+          "price": "$28"
         },
         {
           "name": "Pastel de Lava de Chocolate",
           "description": "Pastel de chocolate caliente, helado de vainilla, compota de bayas",
-          "price": "$10",
-          "image": "/src/assets/chocolate-lava-cake.webp"
+          "price": "$10"
         }
       ]
     },
@@ -210,20 +202,17 @@
       {
         "name": "Laura Smith",
         "role": "Crítica Gastronómica",
-        "content": "Los sabores eran exquisitos y la presentación era impresionante. Una experiencia gastronómica verdaderamente memorable.",
-        "image": "/src/assets/testimonial-1.webp"
+        "content": "Los sabores eran exquisitos y la presentación era impresionante. Una experiencia gastronómica verdaderamente memorable."
       },
       {
         "name": "Daniel Kim",
         "role": "Cliente Regular",
-        "content": "He estado viniendo aquí durante años y la calidad nunca ha disminuido. El personal siempre es amable y atento.",
-        "image": "/src/assets/testimonial-2.webp"
+        "content": "He estado viniendo aquí durante años y la calidad nunca ha disminuido. El personal siempre es amable y atento."
       },
       {
         "name": "Olivia Brown",
         "role": "Bloguera Local de Comida",
-        "content": "Desde el ambiente hasta la comida, todo fue perfecto. Un restaurante que debes visitar en la ciudad.",
-        "image": "/src/assets/testimonial-3.webp"
+        "content": "Desde el ambiente hasta la comida, todo fue perfecto. Un restaurante que debes visitar en la ciudad."
       }
     ]
   },

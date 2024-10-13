@@ -2,6 +2,9 @@ import { useTranslation } from "react-i18next";
 import OneTestimonial from "./OneTestimonial";
 import { Testimonial } from "@/models/models";
 import { motion } from "framer-motion";
+import testimonial1 from "@/assets/testimonial-1.webp";
+import testimonial2 from "@/assets/testimonial-2.webp";
+import testimonial3 from "@/assets/testimonial-3.webp";
 
 type TestimonialsProps = {
   inView?: boolean;
@@ -12,6 +15,7 @@ export default function TestimonialsSection({ inView }: TestimonialsProps) {
   const testimonials = t("testimonials.testimonials", {
     returnObjects: true,
   }) as Testimonial[];
+  const testimonialImages = [testimonial1, testimonial2, testimonial3];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -55,7 +59,12 @@ export default function TestimonialsSection({ inView }: TestimonialsProps) {
         >
           {testimonials.map((testimonial, index) => (
             <motion.div key={index} variants={itemVariants}>
-              <OneTestimonial testimonial={testimonial} />
+              <OneTestimonial
+                testimonial={{
+                  ...testimonial,
+                  image: testimonialImages[index],
+                }}
+              />
             </motion.div>
           ))}
         </motion.div>

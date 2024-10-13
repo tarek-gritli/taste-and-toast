@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import FullMenu from "./FullMenu";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import interiorImage from "@/assets/interior.webp";
+
 type HeroProps = {
   inView?: boolean;
 };
@@ -44,7 +46,7 @@ export default function Hero({ inView }: HeroProps) {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}
           className="w-full h-full object-cover"
-          src="/src/assets/interior.webp"
+          src={interiorImage}
           alt="Cozy restaurant interior"
         />
         <div className="absolute inset-0 bg-primary opacity-20"></div>

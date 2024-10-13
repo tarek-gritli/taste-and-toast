@@ -5,6 +5,10 @@ import FullMenu from "./FullMenu";
 import { Button } from "./ui/button";
 import { MenuHighlightsItem } from "@/models/models";
 import { motion } from "framer-motion";
+import grilledSalmon from "@/assets/grilled-salmon.webp";
+import truffleRisotto from "@/assets/truffle-risotto.webp";
+import beefTenderloin from "@/assets/beef-tenderloin.webp";
+import chocolateCake from "@/assets/chocolate-lava-cake.webp";
 
 type MenuHighlightsProps = {
   inView?: boolean;
@@ -16,6 +20,12 @@ export default function MenuHighlights({ inView }: MenuHighlightsProps) {
   const menuItems = t("menu.menuHighlights.menuItems", {
     returnObjects: true,
   }) as MenuHighlightsItem[];
+  const menuImages = [
+    grilledSalmon,
+    truffleRisotto,
+    beefTenderloin,
+    chocolateCake,
+  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -67,7 +77,7 @@ export default function MenuHighlights({ inView }: MenuHighlightsProps) {
         >
           {menuItems.map((item, index) => (
             <motion.div key={index} variants={itemVariants}>
-              <MenuItem item={item} />
+              <MenuItem item={{ ...item, image: menuImages[index] }} />
             </motion.div>
           ))}
         </motion.div>
