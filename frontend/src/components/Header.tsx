@@ -47,7 +47,6 @@ export default function Header() {
                 src={logo}
                 alt="Taste & Toast logo"
                 loading="lazy"
-                fetchPriority="high"
               />
             </a>
           </div>
@@ -122,7 +121,6 @@ export default function Header() {
                     src={logo}
                     alt="Taste & Toast logo"
                     loading="lazy"
-                    fetchPriority="high"
                   />
                 </div>
                 <div className="-mr-2">

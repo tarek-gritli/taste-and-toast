@@ -20,8 +20,8 @@ app.post("/api/create-checkout-session", async (req, res) => {
       payment_method_types: ["card"],
       line_items: items,
       mode: "payment",
-      success_url: `${process.env.FRONTEND_URL}/order-success`,
-      cancel_url: `${process.env.FRONTEND_URL}/order-canceled`,
+      success_url: `${process.env.FRONTEND_URL}`,
+      cancel_url: `${process.env.FRONTEND_URL}`,
     });
 
     res.json({ url: session.url });
